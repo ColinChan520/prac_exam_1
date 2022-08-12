@@ -8,9 +8,10 @@ void print_matrix(int arr[10][10])
   {
   	for(int j = 0;j < 10; j++)
   	{
-       cout << arr[i][j] << endl;
+       cout << arr[i][j] << "";
   	}
   	
+    cout << endl;
   	
   }
 

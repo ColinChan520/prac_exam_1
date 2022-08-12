@@ -15,4 +15,5 @@ int main()
   	}
   }
   print_matrix(arr);
+  cout << endl;
 }
