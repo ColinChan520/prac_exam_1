@@ -14,6 +14,8 @@ int main()
   		cin >> arr[i][j];
   	}
   }
+  
   print_matrix(arr);
-  cout << endl;
+  
+  return 0;
 }
