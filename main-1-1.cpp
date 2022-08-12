@@ -1,21 +1,13 @@
 #include <iostream>
 #include "function-1-1.cpp"
+#include <ostream>
 using namespace std;
 
-extern void print_matrix(int arr[10][10]);
+extern void print_matrix(int array[10][10]);
 
 int main()
 {
-  int arr[10][10];
-  for(int i = 0; i < 10; i++)
-  {
-  	for(int j = 0; j < 10; j++)
-  	{
-  		cin >> arr[i][j];
-  	}
-  }
-  
-  print_matrix(arr);
-  
-  return 0;
+ int array[10][10] = {0};
+ print_matrix(array);
+ return 0;
 }
